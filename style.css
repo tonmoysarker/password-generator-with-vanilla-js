@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    border: 3px solid aqua;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.options > label {
+    margin-left: 5px;
+}
+
+.options > input {
+    margin-left: 5px;
+}
+
+.password-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.password-show > div {
+    width: 50%;
+}
+
+#length-input {
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 5px 0;
+    padding: 5px 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 6px gray;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.btn:active {
+    box-shadow: 0 3px grey;
+    transform: translateY(3px);
+}
